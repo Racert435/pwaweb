@@ -9,8 +9,8 @@ const CACHE_NAME = 'v1_cache_Pizzas',
         'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
         './style.css',
         './script.js',
-        './img/Pizzalogo.png',
-        './img/Pizzalogo.png'
+        './img/farmacia-online.png',
+        './img/farmacia-online.png'
     ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
@@ -57,7 +57,7 @@ self.addEventListener('fetch', e => {
                 return res
             }
             //recuperar de la petición a la url
-            return fetch(e.request)
+                return fetch(e.request)
         })
     )
 })
